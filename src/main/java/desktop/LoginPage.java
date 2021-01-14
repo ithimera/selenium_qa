@@ -18,11 +18,11 @@ public class LoginPage {
     WebElement password;
     @FindBy(name = "btnLogin")
     WebElement loginButton;
-    public void enterUsername(String text){
-        username.sendKeys(text);
+    public void enterUsername(String usernameText){
+        username.sendKeys(usernameText);
     }
-    public void enterPassword(String text){
-        password.sendKeys(text);
+    public void enterPassword(String passwordText){
+        password.sendKeys(passwordText);
     }
     public void clickOnLogin(){
         loginButton.click();

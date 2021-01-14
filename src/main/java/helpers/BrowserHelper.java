@@ -12,15 +12,12 @@ public class BrowserHelper {
             System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
-
+            driver.get("http://demo.guru99.com/");
         }
         return driver;
     }
 
     public static void close_browser(){
         driver.quit();
-    }
-    public static void navigate_to_url(){
-        open_chrome_and_launch_app().get("http://demo.guru99.com/v3");
     }
 }

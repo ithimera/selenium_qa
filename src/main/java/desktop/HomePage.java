@@ -12,10 +12,10 @@ public class HomePage {
         this.driver = BrowserHelper.open_chrome_and_launch_app();
         PageFactory.initElements(driver,this);
     }
-    @FindBy(xpath = "//a[contains(text(),'Bank Project')]")
+    @FindBy(xpath = "//a[contains(text(),'Agile Project')]")
     WebElement bankLoginLink;
 
-    @FindBy(xpath = "//a[contains(text(),'Balance Enquiry')]")
+    @FindBy(xpath = "//a[contains(text(),'Mini Statement')]")
     WebElement balanceEnquiry;
 
     public void clickOnBankLoginLink(){

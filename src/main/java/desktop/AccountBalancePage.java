@@ -20,7 +20,7 @@ public class AccountBalancePage {
     @FindBy(name = "AccSubmit")
     public WebElement submitButton;
 
-    @FindBy(xpath = "//p[contains(text(),'Balance Details')]")
+    @FindBy(xpath = "//p[contains(text(),'Transaction Details for Account')]")
     WebElement balanceDetailsTitle;
 
     public void pickAccount(String accNr){

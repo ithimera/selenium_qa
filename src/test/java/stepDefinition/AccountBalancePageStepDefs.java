@@ -18,6 +18,6 @@ public class AccountBalancePageStepDefs extends AccountBalancePage {
 
     @Then("User can see balance details for account {string}")
     public void userCanSeeBalanceDetailsForAccount(String accNr) {
-        Assert.assertEquals("Account details are not displayed properly for:".concat( accNr),"Balance Details for Account".concat(accNr), getAccountDetailsTitle());
+        Assert.assertEquals("Account details are not displayed properly for:".concat( accNr),"Last Three Transaction Details for Account No: ".concat(accNr), getAccountDetailsTitle());
     }
 }
