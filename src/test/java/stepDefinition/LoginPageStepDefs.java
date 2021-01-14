@@ -19,4 +19,6 @@ public class LoginPageStepDefs extends LoginPage {
     public void user_clicks_on_login_button(){
         clickOnLogin();
     }
+
+
 }

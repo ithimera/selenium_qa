@@ -15,7 +15,13 @@ public class HomePage {
     @FindBy(xpath = "//a[contains(text(),'Bank Project')]")
     WebElement bankLoginLink;
 
+    @FindBy(xpath = "//a[contains(text(),'Balance Enquiry')]")
+    WebElement balanceEnquiry;
+
     public void clickOnBankLoginLink(){
         bankLoginLink.click();
+    }
+    public void clickOnBalanceEnquiryLink(){
+        balanceEnquiry.click();
     }
 }
