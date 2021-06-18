@@ -1,4 +1,4 @@
-package pageSteps;
+package stepDefinition;
 
 import desktop.pages.HomePage;
 import helpers.BrowserHelper;

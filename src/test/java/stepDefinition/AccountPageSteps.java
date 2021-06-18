@@ -1,4 +1,4 @@
-package pageSteps;
+package stepDefinition;
 
 import desktop.pages.AccountPage;
 import io.cucumber.java.en.And;
